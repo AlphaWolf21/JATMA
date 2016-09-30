@@ -1,0 +1,46 @@
+[14:24:28] [main/INFO]: Logging in with username & password
+[14:24:33] [Client thread/INFO]: Setting user: abused_master
+[14:24:37] [Client thread/WARN]: Skipping bad option: lastServer:
+[14:24:37] [Client thread/INFO]: LWJGL Version: 2.9.4
+[14:24:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JATMA, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO
+[14:24:49] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:24:50] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[14:24:50] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:24:50] [Thread-8/INFO]: OpenAL initialized.
+[14:24:50] [Sound Library Loader/INFO]: Sound engine started
+[14:24:53] [Client thread/INFO]: Created: 16x16 textures-atlas
+[14:24:57] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JATMA, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO
+[14:24:58] [Client thread/INFO]: SoundSystem shutting down...
+[14:24:58] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:24:58] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[14:24:59] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[14:24:59] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[14:24:59] [Thread-10/INFO]: OpenAL initialized.
+[14:24:59] [Sound Library Loader/INFO]: Sound engine started
+[14:25:01] [Client thread/INFO]: Created: 2048x2048 textures-atlas
+[14:25:03] [Client thread/WARN]: Skipping bad option: lastServer:
+[14:25:08] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[14:25:08] [Server thread/INFO]: Generating keypair
+[14:25:10] [Server thread/INFO]: Preparing start region for level 0
+[14:25:12] [Server thread/INFO]: Changing view distance to 8, from 10
+[14:25:13] [Server thread/INFO]: abused_master[local:E:b3e25104] logged in with entity id 267 at (250.05839682074918, 67.0, 220.03390175730192)
+[14:25:13] [Server thread/INFO]: abused_master joined the game
+[14:25:14] [Server thread/INFO]: Saving and pausing game...
+[14:25:14] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:25:14] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:25:14] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:25:26] [Client thread/INFO]: Stopping!
+[14:25:26] [Client thread/INFO]: SoundSystem shutting down...
+[14:25:26] [Server thread/INFO]: Stopping server
+[14:25:26] [Server thread/INFO]: Saving players
+[14:25:26] [Server thread/INFO]: Saving worlds
+[14:25:26] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:25:26] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:25:26] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[14:25:27] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[14:25:27] [Client Shutdown Thread/INFO]: Stopping server
+[14:25:27] [Client Shutdown Thread/INFO]: Saving players
+[14:25:27] [Client Shutdown Thread/INFO]: Saving worlds
+[14:25:27] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld
+[14:25:27] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Nether
+[14:25:27] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/The End

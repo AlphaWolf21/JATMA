@@ -1,0 +1,16 @@
+[
+{
+  "modid": "JATMA",
+  "name": "JATMA",
+  "description": "Just Another Tech Mod Attempt.",
+  "version": "1.0",
+  "mcversion": "1.9.4",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["abused_master"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

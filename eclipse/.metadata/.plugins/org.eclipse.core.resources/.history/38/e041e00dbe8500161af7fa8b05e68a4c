@@ -1,0 +1,91 @@
+package abused_master.JATMA.TE;
+
+import cofh.api.energy.EnergyStorage;
+import cofh.api.energy.IEnergyStorage;
+import net.minecraft.nbt.NBTTagCompound;
+import net.minecraft.tileentity.TileEntity;
+
+public class TileSawMill extends TileEntity implements IEnergyStorage {
+	
+	protected int energy;
+	protected int capacity;
+	protected int maxReceive;
+	protected int maxExtract;
+	
+	public TileSawMill(int capacity) {
+
+		this(capacity, capacity, capacity);
+	}
+
+	public TileSawMill(int capacity, int maxTransfer) {
+
+		this(capacity, maxTransfer, maxTransfer);
+	}
+
+	public TileSawMill(int capacity, int maxReceive, int maxExtract) {
+
+		this.capacity = capacity;
+		this.maxReceive = maxReceive;
+		this.maxExtract = maxExtract;
+	}
+
+	public void readFromNBT(NBTTagCompound nbt) {
+
+		this.energy = nbt.getInteger("Energy");
+
+		if (energy > capacity) {
+			energy = capacity;
+		}
+		return;
+	}
+
+	public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
+
+		if (energy < 0) {
+			energy = 0;
+		}
+		nbt.setInteger("Energy", energy);
+		return nbt;
+	}
+
+	public TileSawMill setCapacity(int capacity) {
+
+		this.capacity = capacity;
+
+		if (energy > capacity) {
+			energy = capacity;
+		}
+		return this;
+	}
+	
+	@Override
+	public int receiveEnergy(int maxReceive, boolean simulate) {
+
+		int energyReceived = Math.min(capacity - energy, Math.min(this.maxReceive, maxReceive));
+
+		if (!simulate) {
+			energy += energyReceived;
+		}
+		return energyReceived;
+	}
+
+	@Override
+	public int extractEnergy(int maxExtract, boolean simulate) {
+		return 0;
+	}
+
+	@Override
+	public int getEnergyStored() {
+
+		return energy;
+	}
+
+	@Override
+	public int getMaxEnergyStored() {
+
+		return capacity;
+	}
+	
+	
+	
+}

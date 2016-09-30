@@ -1,0 +1,35 @@
+package abused_master.JATMA;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class Config {
+    public static Configuration cfg;
+
+    private static final String CATEGORY_GENERAL = "general";
+	
+    public static boolean SawMill;
+    
+	    public static void readConfig() {
+	        try {
+	            cfg.load();
+	            initGeneralConfig(cfg);
+	        } catch (Exception e1) {
+	            
+	        } //finally {
+	            //if (cfg.hasChanged()) {
+	                //cfg.save();
+	            //}
+	        //}
+	    }
+
+	    private static void initGeneralConfig(Configuration cfg) {
+	    	
+	        String category;
+
+	        category = "SawMillEnabled";
+	        cfg.addCustomCategoryComment(category, "Saw Mill Settings");
+	        SawMill = cfg.getBoolean("SawMill", category, true, "Enables/Disabled the Saw Mill in game.");
+	    	
+	    }
+}
+

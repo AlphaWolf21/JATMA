@@ -1,0 +1,9 @@
+package abused_master.JATMA.TE;
+
+import net.minecraft.tileentity.TileEntity;
+
+public class TileSawMill extends TileEntity {
+	
+	
+	
+}

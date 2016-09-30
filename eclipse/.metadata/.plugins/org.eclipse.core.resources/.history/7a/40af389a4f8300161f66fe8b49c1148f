@@ -1,0 +1,31 @@
+package abused_master.JATMA.Blocks;
+
+import java.util.List;
+
+import abused_master.JATMA.JATMA;
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
+import net.minecraft.entity.Entity;
+import net.minecraft.util.math.AxisAlignedBB;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.World;
+
+public class Crystal extends Block {
+
+	public Crystal(Material material) {
+		super(material);
+		this.setUnlocalizedName("Crystal");
+		this.setCreativeTab(JATMA.JATMA);
+	}
+	
+	@Override
+	public boolean isOpaqueCube(IBlockState state) {
+		return false;
+	}
+	
+	@Override
+	public boolean isFullCube(IBlockState state) {
+		return false;
+	}
+}
