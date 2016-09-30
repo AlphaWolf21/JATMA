@@ -1,4 +1,5 @@
 # JATMA
-Ongoing Tech mod for 1.9.4.
+Ongoing Tech mod for 1.10.2.
 
-Collaboration with [abused_master](https://github.com/abused).
+More information about the mod will come when its done
+
