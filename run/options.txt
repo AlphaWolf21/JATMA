@@ -81,16 +81,21 @@ key_key.hotbar.6:7
 key_key.hotbar.7:8
 key_key.hotbar.8:9
 key_key.hotbar.9:10
-key_Glider Toggle:34
-key_Sound Locator:38
-key_Night Vision:25
-key_Goggles of Revealing:19
-key_Step Assist:0
-key_Speed:0
-key_Jump:0
-key_Yeta Wrench Mode:21
-key_Toggle Electromagnet:0
-key_Toggle The One Probe (Helmet Upgrade):0
+key_enderio.keybind.glidertoggle:34
+key_enderio.keybind.soundlocator:38
+key_enderio.keybind.nightvision:25
+key_enderio.keybind.gogglesofrevealing:0
+key_enderio.keybind.stepassist:0
+key_enderio.keybind.speed:0
+key_enderio.keybind.jump:0
+key_enderio.keybind.top:0
+key_enderio.keybind.yetawrenchmode:21
+key_enderio.keybind.magnet:0
+key_enderio.keybind.fovreset:0
+key_enderio.keybind.fovplus:0
+key_enderio.keybind.fovminus:0
+key_enderio.keybind.fovplusfast:0
+key_enderio.keybind.fovminusfast:0
 soundCategory_master:0.0
 soundCategory_music:0.0
 soundCategory_record:1.0

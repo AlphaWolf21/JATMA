@@ -43,7 +43,6 @@ import static net.minecraftforge.fml.client.config.GuiUtils.VALID;
 public class GuiEditArrayEntries extends GuiListExtended
 {
     protected GuiEditArray owningGui;
-    public Minecraft mc;
     public IConfigElement configElement;
     public List<IArrayEntry> listEntries;
     public boolean isDefault;
@@ -57,7 +56,6 @@ public class GuiEditArrayEntries extends GuiListExtended
     {
         super(mc, parent.width, parent.height, parent.titleLine2 != null ? (parent.titleLine3 != null ? 43 : 33) : 23, parent.height - 32, 20);
         this.owningGui = parent;
-        this.mc = mc;
         this.configElement = configElement;
         this.beforeValues = beforeValues;
         this.currentValues = currentValues;
@@ -287,6 +285,11 @@ public class GuiEditArrayEntries extends GuiListExtended
             entry.drawToolTip(mouseX, mouseY);
     }
 
+    public Minecraft getMC()
+    {
+        return this.mc;
+    }
+
     /**
      * IGuiListEntry Inner Classes
      */
@@ -411,7 +414,7 @@ public class GuiEditArrayEntries extends GuiListExtended
         public StringEntry(GuiEditArray owningScreen, GuiEditArrayEntries owningEntryList, IConfigElement configElement, Object value)
         {
             super(owningScreen, owningEntryList, configElement);
-            this.textFieldValue = new GuiTextField(0, owningEntryList.mc.fontRendererObj, owningEntryList.width / 4 + 1, 0, owningEntryList.controlWidth - 3, 16);
+            this.textFieldValue = new GuiTextField(0, owningEntryList.getMC().fontRendererObj, owningEntryList.width / 4 + 1, 0, owningEntryList.controlWidth - 3, 16);
             this.textFieldValue.setMaxStringLength(10000);
             this.textFieldValue.setText(value.toString());
             this.isValidated = configElement.getValidationPattern() != null;
@@ -505,7 +508,7 @@ public class GuiEditArrayEntries extends GuiListExtended
                 this.btnValue.displayString = String.valueOf(value);
             btnValue.packedFGColour = value ? GuiUtils.getColorCode('2', true) : GuiUtils.getColorCode('4', true);
 
-            this.btnValue.drawButton(owningEntryList.mc, mouseX, mouseY);
+            this.btnValue.drawButton(owningEntryList.getMC(), mouseX, mouseY);
         }
 
         /**
@@ -515,9 +518,9 @@ public class GuiEditArrayEntries extends GuiListExtended
         @Override
         public boolean mousePressed(int index, int x, int y, int mouseEvent, int relativeX, int relativeY)
         {
-            if (this.btnValue.mousePressed(owningEntryList.mc, x, y))
+            if (this.btnValue.mousePressed(owningEntryList.getMC(), x, y))
             {
-                btnValue.playPressSound(owningEntryList.mc.getSoundHandler());
+                btnValue.playPressSound(owningEntryList.getMC().getSoundHandler());
                 value = !value;
                 owningEntryList.recalculateState();
                 return true;
@@ -579,10 +582,10 @@ public class GuiEditArrayEntries extends GuiListExtended
         public void drawEntry(int slotIndex, int x, int y, int listWidth, int slotHeight, int mouseX, int mouseY, boolean isSelected)
         {
             if (this.getValue() != null && this.isValidated)
-                owningEntryList.mc.fontRendererObj.drawString(
+                owningEntryList.getMC().fontRendererObj.drawString(
                         isValidValue ? TextFormatting.GREEN + VALID : TextFormatting.RED + INVALID,
-                        listWidth / 4 - owningEntryList.mc.fontRendererObj.getStringWidth(VALID) - 2,
-                        y + slotHeight / 2 - owningEntryList.mc.fontRendererObj.FONT_HEIGHT / 2,
+                        listWidth / 4 - owningEntryList.getMC().fontRendererObj.getStringWidth(VALID) - 2,
+                        y + slotHeight / 2 - owningEntryList.getMC().fontRendererObj.FONT_HEIGHT / 2,
                         16777215);
 
             int half = listWidth / 2;
@@ -591,7 +594,7 @@ public class GuiEditArrayEntries extends GuiListExtended
                 this.btnAddNewEntryAbove.visible = true;
                 this.btnAddNewEntryAbove.xPosition = half + ((half / 2) - 44);
                 this.btnAddNewEntryAbove.yPosition = y;
-                this.btnAddNewEntryAbove.drawButton(owningEntryList.mc, mouseX, mouseY);
+                this.btnAddNewEntryAbove.drawButton(owningEntryList.getMC(), mouseX, mouseY);
             }
             else
                 this.btnAddNewEntryAbove.visible = false;
@@ -601,7 +604,7 @@ public class GuiEditArrayEntries extends GuiListExtended
                 this.btnRemoveEntry.visible = true;
                 this.btnRemoveEntry.xPosition = half + ((half / 2) - 22);
                 this.btnRemoveEntry.yPosition = y;
-                this.btnRemoveEntry.drawButton(owningEntryList.mc, mouseX, mouseY);
+                this.btnRemoveEntry.drawButton(owningEntryList.getMC(), mouseX, mouseY);
             }
             else
                 this.btnRemoveEntry.visible = false;
@@ -624,16 +627,16 @@ public class GuiEditArrayEntries extends GuiListExtended
         @Override
         public boolean mousePressed(int index, int x, int y, int mouseEvent, int relativeX, int relativeY)
         {
-            if (this.btnAddNewEntryAbove.mousePressed(owningEntryList.mc, x, y))
+            if (this.btnAddNewEntryAbove.mousePressed(owningEntryList.getMC(), x, y))
             {
-                btnAddNewEntryAbove.playPressSound(owningEntryList.mc.getSoundHandler());
+                btnAddNewEntryAbove.playPressSound(owningEntryList.getMC().getSoundHandler());
                 owningEntryList.addNewEntry(index);
                 owningEntryList.recalculateState();
                 return true;
             }
-            else if (this.btnRemoveEntry.mousePressed(owningEntryList.mc, x, y))
+            else if (this.btnRemoveEntry.mousePressed(owningEntryList.getMC(), x, y))
             {
-                btnRemoveEntry.playPressSound(owningEntryList.mc.getSoundHandler());
+                btnRemoveEntry.playPressSound(owningEntryList.getMC().getSoundHandler());
                 owningEntryList.removeEntry(index);
                 owningEntryList.recalculateState();
                 return true;

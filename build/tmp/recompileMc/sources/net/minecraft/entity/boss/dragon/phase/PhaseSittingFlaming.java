@@ -80,7 +80,7 @@ public class PhaseSittingFlaming extends PhaseSittingBase
             double d2 = this.dragon.dragonPartHead.posY + (double)(this.dragon.dragonPartHead.height / 2.0F);
             BlockPos.MutableBlockPos blockpos$mutableblockpos = new BlockPos.MutableBlockPos(MathHelper.floor_double(d0), MathHelper.floor_double(d2), MathHelper.floor_double(d1));
 
-            while (this.dragon.worldObj.isAirBlock(blockpos$mutableblockpos))
+            while (this.dragon.worldObj.isAirBlock(blockpos$mutableblockpos) && d2 >= 0) //Forge: Fix infinite loop if ground is missing.
             {
                 --d2;
                 blockpos$mutableblockpos.setPos(MathHelper.floor_double(d0), MathHelper.floor_double(d2), MathHelper.floor_double(d1));

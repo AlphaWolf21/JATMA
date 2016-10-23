@@ -75,11 +75,11 @@ public class RecipeRepairItem implements IRecipe
 
             if (itemstack2.getItem() == itemstack3.getItem() && itemstack2.stackSize == 1 && itemstack3.stackSize == 1 && itemstack2.getItem().isRepairable())
             {
-                Item item = itemstack2.getItem();
-                int j = item.getMaxDamage() - itemstack2.getItemDamage();
-                int k = item.getMaxDamage() - itemstack3.getItemDamage();
-                int l = j + k + item.getMaxDamage() * 5 / 100;
-                int i1 = item.getMaxDamage() - l;
+                // FORGE: Make itemstack sensitive // Item item = itemstack2.getItem();
+                int j = itemstack2.getMaxDamage() - itemstack2.getItemDamage();
+                int k = itemstack2.getMaxDamage() - itemstack3.getItemDamage();
+                int l = j + k + itemstack2.getMaxDamage() * 5 / 100;
+                int i1 = itemstack2.getMaxDamage() - l;
 
                 if (i1 < 0)
                 {

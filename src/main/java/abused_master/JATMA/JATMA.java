@@ -2,6 +2,7 @@ package abused_master.JATMA;
 
 import java.io.File;
 
+import abused_master.JATMA.Config.Config;
 import abused_master.JATMA.Registry.ModItems;
 import abused_master.JATMA.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
@@ -12,13 +13,12 @@ import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLLoadCompleteEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid = Info.MODID, version = Info.VERSION, name = Info.MODNAME)
 public class JATMA {
-	
-	//public static File configLoc;
 	
     @Instance
     public static JATMA instance;
@@ -28,14 +28,8 @@ public class JATMA {
 	
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent e) {
+		Config.init(e);
 		this.proxy.preInit(e);
-		
-		
-		/**
-        configLoc = new File(e.getModConfigurationDirectory() + "/" + Info.MODID);
-        configLoc.mkdirs();
-        ConfigHandler.init(new File(configLoc.getPath(), Info.MODID + ".cfg"));
-	*/
 	}
 	
 	@EventHandler

@@ -251,6 +251,7 @@ public class Item extends net.minecraftforge.fml.common.registry.IForgeRegistryE
     /**
      * Returns the maximum damage an item can take.
      */
+    @Deprecated
     public int getMaxDamage()
     {
         return this.maxDamage;

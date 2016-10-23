@@ -167,7 +167,7 @@ public final class WorldEntitySpawner
                                                         entityliving.setDead();
                                                     }
 
-                                                    if (i2 >= net.minecraftforge.event.ForgeEventFactory.getMaxSpawnPackSize(entityliving))
+                                                    if (j2 >= net.minecraftforge.event.ForgeEventFactory.getMaxSpawnPackSize(entityliving))
                                                     {
                                                         continue label411;
                                                     }

@@ -112,14 +112,7 @@ public class BlockGrass extends Block implements IGrowable
                     {
                         if (rand.nextInt(8) == 0)
                         {
-                            BlockFlower.EnumFlowerType blockflower$enumflowertype = worldIn.getBiomeGenForCoords(blockpos1).pickRandomFlower(rand, blockpos1);
-                            BlockFlower blockflower = blockflower$enumflowertype.getBlockType().getBlock();
-                            IBlockState iblockstate = blockflower.getDefaultState().withProperty(blockflower.getTypeProperty(), blockflower$enumflowertype);
-
-                            if (blockflower.canBlockStay(worldIn, blockpos1, iblockstate))
-                            {
-                                worldIn.setBlockState(blockpos1, iblockstate, 3);
-                            }
+                            worldIn.getBiomeGenForCoords(blockpos1).plantFlower(worldIn, rand, blockpos1);
                         }
                         else
                         {

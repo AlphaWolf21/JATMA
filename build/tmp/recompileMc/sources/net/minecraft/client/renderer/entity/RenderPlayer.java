@@ -133,6 +133,11 @@ public class RenderPlayer extends RenderLivingBase<AbstractClientPlayer>
                     {
                         modelbiped$armpose1 = ModelBiped.ArmPose.BLOCK;
                     }
+                    // FORGE: fix MC-88356 allow offhand to use bow and arrow animation
+                    else if (enumaction1 == EnumAction.BOW)
+                    {
+                        modelbiped$armpose1 = ModelBiped.ArmPose.BOW_AND_ARROW;
+                    }
                 }
             }
 

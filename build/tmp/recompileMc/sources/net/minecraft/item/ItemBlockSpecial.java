@@ -42,7 +42,7 @@ public class ItemBlockSpecial extends Item
 
         if (playerIn.canPlayerEdit(pos, facing, stack) && stack.stackSize != 0 && worldIn.canBlockBePlaced(this.block, pos, false, facing, (Entity)null, stack))
         {
-            IBlockState iblockstate1 = this.block.onBlockPlaced(worldIn, pos, facing, hitX, hitY, hitZ, 0, playerIn);
+            IBlockState iblockstate1 = this.block.getStateForPlacement(worldIn, pos, facing, hitX, hitY, hitZ, 0, playerIn, stack);
 
             if (!worldIn.setBlockState(pos, iblockstate1, 11))
             {

@@ -79,6 +79,23 @@ public class UniversalBucket extends Item implements IFluidContainerItem
         BlockDispenser.DISPENSE_BEHAVIOR_REGISTRY.putObject(this, DispenseFluidContainer.getInstance());
     }
 
+    @Override
+    public boolean hasContainerItem(ItemStack stack)
+    {
+        return getEmpty() != null;
+    }
+
+    @Override
+    public ItemStack getContainerItem(ItemStack itemStack)
+    {
+        if (getEmpty() != null)
+        {
+            // Create a copy such that the game can't mess with it
+            return getEmpty().copy();
+        }
+        return super.getContainerItem(itemStack);
+    }
+
     /**
      * returns a list of items with the same ID, but different meta (eg: dye returns 16 items)
      */

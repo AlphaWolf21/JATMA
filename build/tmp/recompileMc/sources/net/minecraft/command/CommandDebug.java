@@ -113,7 +113,7 @@ public class CommandDebug extends CommandBase
         {
             IOUtils.closeQuietly((Writer)filewriter);
             LOGGER.error("Could not save profiler results to {}", new Object[] {file1, throwable});
-        }
+        } finally { IOUtils.closeQuietly(filewriter); } // FORGE: Fix MC-103399
     }
 
     private String getProfilerResults(long timeSpan, int tickSpan, MinecraftServer server)

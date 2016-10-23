@@ -107,6 +107,18 @@ public class EntityAIMate extends EntityAIBase
     {
         EntityAgeable entityageable = this.theAnimal.createChild(this.targetMate);
 
+        final net.minecraftforge.event.entity.living.BabyEntitySpawnEvent event = new net.minecraftforge.event.entity.living.BabyEntitySpawnEvent(theAnimal, targetMate, entityageable);
+        final boolean cancelled = net.minecraftforge.common.MinecraftForge.EVENT_BUS.post(event);
+        entityageable = event.getChild();
+        if (cancelled) {
+            //Reset the "inLove" state for the animals
+            this.theAnimal.setGrowingAge(6000);
+            this.targetMate.setGrowingAge(6000);
+            this.theAnimal.resetInLove();
+            this.targetMate.resetInLove();
+            return;
+        }
+
         if (entityageable != null)
         {
             EntityPlayer entityplayer = this.theAnimal.getPlayerInLove();

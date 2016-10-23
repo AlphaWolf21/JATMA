@@ -200,7 +200,11 @@ public final class ItemStack implements net.minecraftforge.common.capabilities.I
             nbt.setTag("tag", this.stackTagCompound);
         }
 
-        if (this.capabilities != null) nbt.setTag("ForgeCaps", this.capabilities.serializeNBT());
+        if (this.capabilities != null)
+        {
+            NBTTagCompound cnbt = this.capabilities.serializeNBT();
+            if (!cnbt.hasNoTags()) nbt.setTag("ForgeCaps", cnbt);
+        }
 
         return nbt;
     }

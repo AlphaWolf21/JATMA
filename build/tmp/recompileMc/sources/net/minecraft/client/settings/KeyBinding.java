@@ -104,7 +104,7 @@ public class KeyBinding implements Comparable<KeyBinding>
      */
     public boolean isKeyDown()
     {
-        return this.pressed && getKeyConflictContext().isActive() && getKeyModifier().isActive();
+        return this.pressed && getKeyConflictContext().isActive() && getKeyModifier().isActive(getKeyConflictContext());
     }
 
     public String getKeyCategory()
@@ -206,7 +206,7 @@ public class KeyBinding implements Comparable<KeyBinding>
      */
     public boolean isActiveAndMatches(int keyCode)
     {
-        return keyCode == this.getKeyCode() && getKeyConflictContext().isActive() && getKeyModifier().isActive();
+        return keyCode != 0 && keyCode == this.getKeyCode() && getKeyConflictContext().isActive() && getKeyModifier().isActive(getKeyConflictContext());
     }
 
     public void setKeyConflictContext(net.minecraftforge.client.settings.IKeyConflictContext keyConflictContext)
@@ -264,9 +264,14 @@ public class KeyBinding implements Comparable<KeyBinding>
             {
                 return true;
             }
-            else if (keyModifier == otherKeyModifier || keyModifier == net.minecraftforge.client.settings.KeyModifier.NONE || otherKeyModifier == net.minecraftforge.client.settings.KeyModifier.NONE)
+            else if (getKeyCode() == other.getKeyCode())
             {
-                return getKeyCode() == other.getKeyCode();
+                return keyModifier == otherKeyModifier ||
+                        // IN_GAME key contexts have a conflict when at least one modifier is NONE.
+                        // For example: If you hold shift to crouch, you can still press E to open your inventory. This means that a Shift+E hotkey is in conflict with E.
+                        // GUI and other key contexts do not have this limitation.
+                        (getKeyConflictContext().conflicts(net.minecraftforge.client.settings.KeyConflictContext.IN_GAME) &&
+                                (keyModifier == net.minecraftforge.client.settings.KeyModifier.NONE || otherKeyModifier == net.minecraftforge.client.settings.KeyModifier.NONE));
             }
         }
         return false;

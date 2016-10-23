@@ -80,7 +80,7 @@ public class ItemDye extends Item
 
                         if (worldIn.isAirBlock(pos))
                         {
-                            IBlockState iblockstate1 = Blocks.COCOA.onBlockPlaced(worldIn, pos, facing, hitX, hitY, hitZ, 0, playerIn);
+                            IBlockState iblockstate1 = Blocks.COCOA.getStateForPlacement(worldIn, pos, facing, hitX, hitY, hitZ, 0, playerIn, stack);
                             worldIn.setBlockState(pos, iblockstate1, 10);
 
                             if (!playerIn.capabilities.isCreativeMode)

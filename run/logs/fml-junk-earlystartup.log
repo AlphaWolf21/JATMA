@@ -969,3 +969,408 @@
 [14:24:30] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
 [14:24:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
 [14:24:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:51:43] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[15:51:43] [main/INFO] [GradleStart]: Extra: []
+[15:51:43] [main/INFO] [GradleStart]: Password found, attempting login
+[15:51:44] [main/INFO] [GradleStart]: Login Succesful!
+[15:51:44] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:51:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:51:44] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:51:44] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:51:44] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:54:58] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[15:54:58] [main/INFO] [GradleStart]: Extra: []
+[15:54:58] [main/INFO] [GradleStart]: Password found, attempting login
+[15:54:59] [main/INFO] [GradleStart]: Login Succesful!
+[15:54:59] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:54:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:54:59] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:54:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:54:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:57:02] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[15:57:02] [main/INFO] [GradleStart]: Extra: []
+[15:57:02] [main/INFO] [GradleStart]: Password found, attempting login
+[15:57:02] [main/INFO] [GradleStart]: Login Succesful!
+[15:57:02] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:57:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:57:02] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:57:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:57:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:01:49] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[16:01:49] [main/INFO] [GradleStart]: Extra: []
+[16:01:49] [main/INFO] [GradleStart]: Password found, attempting login
+[16:01:50] [main/INFO] [GradleStart]: Login Succesful!
+[16:01:50] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:01:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:01:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:01:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:01:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:04:04] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[16:04:04] [main/INFO] [GradleStart]: Extra: []
+[16:04:04] [main/INFO] [GradleStart]: Password found, attempting login
+[16:04:05] [main/INFO] [GradleStart]: Login Succesful!
+[16:04:05] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:04:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:04:05] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:04:05] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:04:05] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:21:59] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[16:21:59] [main/INFO] [GradleStart]: Extra: []
+[16:21:59] [main/INFO] [GradleStart]: Password found, attempting login
+[16:22:03] [main/INFO] [GradleStart]: Login Succesful!
+[16:22:03] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:22:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:22:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:22:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:22:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:29:45] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[16:29:45] [main/INFO] [GradleStart]: Extra: []
+[16:29:45] [main/INFO] [GradleStart]: Password found, attempting login
+[16:29:48] [main/INFO] [GradleStart]: Login Succesful!
+[16:29:48] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:29:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:29:48] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:29:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:29:48] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:51:57] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[16:51:57] [main/INFO] [GradleStart]: Extra: []
+[16:51:57] [main/INFO] [GradleStart]: Password found, attempting login
+[16:51:58] [main/INFO] [GradleStart]: Login Succesful!
+[16:51:58] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:51:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:51:58] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:51:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:51:58] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:53:16] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[16:53:16] [main/INFO] [GradleStart]: Extra: []
+[16:53:16] [main/INFO] [GradleStart]: Password found, attempting login
+[16:53:17] [main/INFO] [GradleStart]: Login Succesful!
+[16:53:17] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:53:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:53:17] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:53:17] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:53:17] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:29:58] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[17:29:58] [main/INFO] [GradleStart]: Extra: []
+[17:29:58] [main/INFO] [GradleStart]: Password found, attempting login
+[17:29:59] [main/INFO] [GradleStart]: Login Succesful!
+[17:29:59] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:29:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:29:59] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:29:59] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:29:59] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:55:09] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[15:55:09] [main/INFO] [GradleStart]: Extra: []
+[15:55:09] [main/INFO] [GradleStart]: Password found, attempting login
+[15:55:10] [main/INFO] [GradleStart]: Login Succesful!
+[15:55:10] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:55:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:55:11] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:55:11] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:55:11] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:08:21] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[16:08:21] [main/INFO] [GradleStart]: Extra: []
+[16:08:21] [main/INFO] [GradleStart]: Password found, attempting login
+[16:08:21] [main/INFO] [GradleStart]: Login Succesful!
+[16:08:21] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:08:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:08:21] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:08:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:08:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:18:02] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[16:18:02] [main/INFO] [GradleStart]: Extra: []
+[16:18:02] [main/INFO] [GradleStart]: Password found, attempting login
+[16:18:03] [main/INFO] [GradleStart]: Login Succesful!
+[16:18:03] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[16:18:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:18:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:18:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[16:18:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:14:30] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[18:14:30] [main/INFO] [GradleStart]: Extra: []
+[18:14:30] [main/INFO] [GradleStart]: Password found, attempting login
+[18:14:31] [main/INFO] [GradleStart]: Login Succesful!
+[18:14:32] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:14:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:14:32] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:14:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:14:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:17:22] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[18:17:22] [main/INFO] [GradleStart]: Extra: []
+[18:17:22] [main/INFO] [GradleStart]: Password found, attempting login
+[18:17:23] [main/INFO] [GradleStart]: Login Succesful!
+[18:17:23] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:17:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:17:23] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:17:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:17:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:27:34] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[18:27:34] [main/INFO] [GradleStart]: Extra: []
+[18:27:34] [main/INFO] [GradleStart]: Password found, attempting login
+[18:27:34] [main/INFO] [GradleStart]: Login Succesful!
+[18:27:34] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:27:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:27:34] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:27:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:27:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:41:32] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[18:41:32] [main/INFO] [GradleStart]: Extra: []
+[18:41:32] [main/INFO] [GradleStart]: Password found, attempting login
+[18:41:33] [main/INFO] [GradleStart]: Login Succesful!
+[18:41:34] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:41:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:41:34] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:41:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:41:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:43:41] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[18:43:41] [main/INFO] [GradleStart]: Extra: []
+[18:43:41] [main/INFO] [GradleStart]: Password found, attempting login
+[18:43:42] [main/INFO] [GradleStart]: Login Succesful!
+[18:43:42] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:43:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:43:42] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:43:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:43:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:47:49] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[18:47:49] [main/INFO] [GradleStart]: Extra: []
+[18:47:49] [main/INFO] [GradleStart]: Password found, attempting login
+[18:47:50] [main/INFO] [GradleStart]: Login Succesful!
+[18:47:50] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:47:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:47:50] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:47:50] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:47:50] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:50:39] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[18:50:39] [main/INFO] [GradleStart]: Extra: []
+[18:50:39] [main/INFO] [GradleStart]: Password found, attempting login
+[18:50:40] [main/INFO] [GradleStart]: Login Succesful!
+[18:50:40] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[18:50:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:50:40] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:50:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:50:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:08:28] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[09:08:28] [main/INFO] [GradleStart]: Extra: []
+[09:08:28] [main/INFO] [GradleStart]: Password found, attempting login
+[09:08:29] [main/INFO] [GradleStart]: Login Succesful!
+[09:08:29] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[09:08:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:08:29] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:08:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[09:08:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:26:09] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[09:26:09] [main/INFO] [GradleStart]: Extra: []
+[09:26:09] [main/INFO] [GradleStart]: Password found, attempting login
+[09:26:10] [main/INFO] [GradleStart]: Login Succesful!
+[09:26:10] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[09:26:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:26:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:26:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[09:26:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:34:03] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[09:34:03] [main/INFO] [GradleStart]: Extra: []
+[09:34:03] [main/INFO] [GradleStart]: Password found, attempting login
+[09:34:04] [main/INFO] [GradleStart]: Login Succesful!
+[09:34:04] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[09:34:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:34:04] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:34:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[09:34:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:48:29] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[09:48:29] [main/INFO] [GradleStart]: Extra: []
+[09:48:29] [main/INFO] [GradleStart]: Password found, attempting login
+[09:48:30] [main/INFO] [GradleStart]: Login Succesful!
+[09:48:30] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[09:48:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:48:30] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:48:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[09:48:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:50:52] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[09:50:52] [main/INFO] [GradleStart]: Extra: []
+[09:50:52] [main/INFO] [GradleStart]: Password found, attempting login
+[09:50:53] [main/INFO] [GradleStart]: Login Succesful!
+[09:50:53] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[09:50:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:50:53] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:50:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[09:50:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:53:53] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[09:53:53] [main/INFO] [GradleStart]: Extra: []
+[09:53:53] [main/INFO] [GradleStart]: Password found, attempting login
+[09:53:53] [main/INFO] [GradleStart]: Login Succesful!
+[09:53:53] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[09:53:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:53:53] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[09:53:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[09:53:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:02:22] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[10:02:22] [main/INFO] [GradleStart]: Extra: []
+[10:02:22] [main/INFO] [GradleStart]: Password found, attempting login
+[10:02:23] [main/INFO] [GradleStart]: Login Succesful!
+[10:02:23] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:02:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:02:23] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:02:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:02:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:06:42] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[10:06:42] [main/INFO] [GradleStart]: Extra: []
+[10:06:42] [main/INFO] [GradleStart]: Password found, attempting login
+[10:06:43] [main/INFO] [GradleStart]: Login Succesful!
+[10:06:43] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:06:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:06:43] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:06:43] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:06:43] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:08:15] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[10:08:15] [main/INFO] [GradleStart]: Extra: []
+[10:08:15] [main/INFO] [GradleStart]: Password found, attempting login
+[10:08:16] [main/INFO] [GradleStart]: Login Succesful!
+[10:08:16] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:08:16] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:08:16] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:08:16] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:08:16] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:11:02] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[10:11:02] [main/INFO] [GradleStart]: Extra: []
+[10:11:02] [main/INFO] [GradleStart]: Password found, attempting login
+[10:11:03] [main/INFO] [GradleStart]: Login Succesful!
+[10:11:03] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:11:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:11:03] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:11:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:11:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:13:12] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[10:13:12] [main/INFO] [GradleStart]: Extra: []
+[10:13:12] [main/INFO] [GradleStart]: Password found, attempting login
+[10:13:13] [main/INFO] [GradleStart]: Login Succesful!
+[10:13:13] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:13:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:13:14] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:13:14] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:13:14] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:30:33] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[10:30:33] [main/INFO] [GradleStart]: Extra: []
+[10:30:33] [main/INFO] [GradleStart]: Password found, attempting login
+[10:30:33] [main/INFO] [GradleStart]: Login Succesful!
+[10:30:33] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:30:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:30:33] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:30:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:30:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:32:52] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[10:32:52] [main/INFO] [GradleStart]: Extra: []
+[10:32:52] [main/INFO] [GradleStart]: Password found, attempting login
+[10:32:53] [main/INFO] [GradleStart]: Login Succesful!
+[10:32:53] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:32:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:32:53] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:32:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:32:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:36:25] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[10:36:25] [main/INFO] [GradleStart]: Extra: []
+[10:36:25] [main/INFO] [GradleStart]: Password found, attempting login
+[10:36:26] [main/INFO] [GradleStart]: Login Succesful!
+[10:36:26] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:36:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:36:26] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:36:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:36:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:43:37] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[10:43:37] [main/INFO] [GradleStart]: Extra: []
+[10:43:37] [main/INFO] [GradleStart]: Password found, attempting login
+[10:43:37] [main/INFO] [GradleStart]: Login Succesful!
+[10:43:38] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:43:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:43:38] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:43:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:43:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:51:45] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[10:51:45] [main/INFO] [GradleStart]: Extra: []
+[10:51:45] [main/INFO] [GradleStart]: Password found, attempting login
+[10:51:45] [main/INFO] [GradleStart]: Login Succesful!
+[10:51:45] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:51:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:51:45] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:51:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:51:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:55:28] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[10:55:28] [main/INFO] [GradleStart]: Extra: []
+[10:55:28] [main/INFO] [GradleStart]: Password found, attempting login
+[10:55:29] [main/INFO] [GradleStart]: Login Succesful!
+[10:55:29] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:55:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:55:29] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:55:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:55:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:05:52] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[11:05:52] [main/INFO] [GradleStart]: Extra: []
+[11:05:52] [main/INFO] [GradleStart]: Password found, attempting login
+[11:05:53] [main/INFO] [GradleStart]: Login Succesful!
+[11:05:53] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[11:05:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:05:53] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:05:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:05:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:39:18] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[11:39:18] [main/INFO] [GradleStart]: Extra: []
+[11:39:18] [main/INFO] [GradleStart]: Password found, attempting login
+[11:39:18] [main/INFO] [GradleStart]: Login Succesful!
+[11:39:18] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[11:39:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:39:18] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[11:39:18] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:39:18] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:20:18] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[12:20:18] [main/INFO] [GradleStart]: Extra: []
+[12:20:18] [main/INFO] [GradleStart]: Password found, attempting login
+[12:20:19] [main/INFO] [GradleStart]: Login Succesful!
+[12:20:19] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[12:20:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:20:19] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[12:20:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[12:20:19] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:01:26] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[15:01:26] [main/INFO] [GradleStart]: Extra: []
+[15:01:26] [main/INFO] [GradleStart]: Password found, attempting login
+[15:01:27] [main/INFO] [GradleStart]: Login Succesful!
+[15:01:27] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[15:01:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:01:27] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[15:01:27] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[15:01:27] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:28:23] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[17:28:23] [main/INFO] [GradleStart]: Extra: []
+[17:28:23] [main/INFO] [GradleStart]: Password found, attempting login
+[17:28:24] [main/INFO] [GradleStart]: Login Succesful!
+[17:28:24] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:28:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:28:24] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:28:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:28:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:33:39] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[17:33:39] [main/INFO] [GradleStart]: Extra: []
+[17:33:39] [main/INFO] [GradleStart]: Password found, attempting login
+[17:33:40] [main/INFO] [GradleStart]: Login Succesful!
+[17:33:40] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:33:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:33:40] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:33:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:33:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:37:59] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[17:37:59] [main/INFO] [GradleStart]: Extra: []
+[17:37:59] [main/INFO] [GradleStart]: Password found, attempting login
+[17:38:01] [main/INFO] [GradleStart]: Login Succesful!
+[17:38:01] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:38:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:38:01] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:38:01] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:38:01] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:48:02] [main/INFO] [GradleStart]: username: techperson71@gmail.com
+[17:48:02] [main/INFO] [GradleStart]: Extra: []
+[17:48:02] [main/INFO] [GradleStart]: Password found, attempting login
+[17:48:04] [main/INFO] [GradleStart]: Login Succesful!
+[17:48:04] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, [], --assetsDir, C:/Users/Mohammad/.gradle/caches/minecraft/assets, --assetIndex, 1.10, --userType, mojang, --accessToken{REDACTED}, --version, 1.10.2, --uuid, 0177f90b13524306b22ee26005965cc4, --username, abused_master, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[17:48:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:48:04] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[17:48:04] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[17:48:04] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker

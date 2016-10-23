@@ -798,10 +798,12 @@ public class Block extends net.minecraftforge.fml.common.registry.IForgeRegistry
     {
     }
 
+    // Forge: use getStateForPlacement
     /**
      * Called by ItemBlocks just before a block is actually set in the world, to allow for adjustments to the
      * IBlockstate
      */
+    @Deprecated
     public IBlockState onBlockPlaced(World worldIn, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer)
     {
         return this.getStateFromMeta(meta);
@@ -1826,9 +1828,9 @@ public class Block extends net.minecraftforge.fml.common.registry.IForgeRegistry
         IBlockState plant = plantable.getPlant(world, pos.offset(direction));
         net.minecraftforge.common.EnumPlantType plantType = plantable.getPlantType(world, pos.offset(direction));
 
-        if (plant.getBlock() == net.minecraft.init.Blocks.CACTUS && this == net.minecraft.init.Blocks.CACTUS)
+        if (plant.getBlock() == net.minecraft.init.Blocks.CACTUS)
         {
-            return true;
+            return this == net.minecraft.init.Blocks.CACTUS || this == net.minecraft.init.Blocks.SAND;
         }
 
         if (plant.getBlock() == net.minecraft.init.Blocks.REEDS && this == net.minecraft.init.Blocks.REEDS)
@@ -1843,7 +1845,7 @@ public class Block extends net.minecraftforge.fml.common.registry.IForgeRegistry
 
         switch (plantType)
         {
-            case Desert: return this == net.minecraft.init.Blocks.SAND || this == net.minecraft.init.Blocks.HARDENED_CLAY || this == net.minecraft.init.Blocks.STAINED_HARDENED_CLAY || this == net.minecraft.init.Blocks.DIRT;
+            case Desert: return this == net.minecraft.init.Blocks.SAND || this == net.minecraft.init.Blocks.HARDENED_CLAY || this == net.minecraft.init.Blocks.STAINED_HARDENED_CLAY;
             case Nether: return this == net.minecraft.init.Blocks.SOUL_SAND;
             case Crop:   return this == net.minecraft.init.Blocks.FARMLAND;
             case Cave:   return state.isSideSolid(world, pos, EnumFacing.UP);
@@ -2292,6 +2294,28 @@ public class Block extends net.minecraftforge.fml.common.registry.IForgeRegistry
     public float[] getBeaconColorMultiplier(IBlockState state, World world, BlockPos pos, BlockPos beaconPos)
     {
         return null;
+    }
+
+    /**
+     * Gets the {@link IBlockState} to place
+     * @param world The world the block is being placed in
+     * @param pos The position the block is being placed at
+     * @param facing The side the block is being placed on
+     * @param hitX The X coordinate of the hit vector
+     * @param hitY The Y coordinate of the hit vector
+     * @param hitZ The Z coordinate of the hit vector
+     * @param meta The metadata of {@link ItemStack} as processed by {@link Item#getMetadata(int)}
+     * @param placer The entity placing the block
+     * @param stack The stack being used to place this block
+     * @return The state to be placed in the world
+     */
+    public IBlockState getStateForPlacement(World world, BlockPos pos, EnumFacing facing, float hitX, float hitY, float hitZ, int meta, EntityLivingBase placer, ItemStack stack)
+    {
+        /**
+         * Called by ItemBlocks just before a block is actually set in the world, to allow for adjustments to the
+         * IBlockstate
+         */
+        return onBlockPlaced(world, pos, facing, hitX, hitY, hitZ, meta, placer);
     }
 
     /* ========================================= FORGE END ======================================*/

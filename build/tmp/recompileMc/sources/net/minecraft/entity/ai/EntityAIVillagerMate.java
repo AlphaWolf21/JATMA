@@ -128,11 +128,15 @@ public class EntityAIVillagerMate extends EntityAIBase
 
     private void giveBirth()
     {
-        EntityVillager entityvillager = this.villagerObj.createChild(this.mate);
+        net.minecraft.entity.EntityAgeable entityvillager = this.villagerObj.createChild(this.mate);
         this.mate.setGrowingAge(6000);
         this.villagerObj.setGrowingAge(6000);
         this.mate.setIsWillingToMate(false);
         this.villagerObj.setIsWillingToMate(false);
+
+        final net.minecraftforge.event.entity.living.BabyEntitySpawnEvent event = new net.minecraftforge.event.entity.living.BabyEntitySpawnEvent(villagerObj, mate, entityvillager);
+        if (net.minecraftforge.common.MinecraftForge.EVENT_BUS.post(event) || event.getChild() == null) { return; }
+        entityvillager = event.getChild();
         entityvillager.setGrowingAge(-24000);
         entityvillager.setLocationAndAngles(this.villagerObj.posX, this.villagerObj.posY, this.villagerObj.posZ, 0.0F, 0.0F);
         this.worldObj.spawnEntityInWorld(entityvillager);

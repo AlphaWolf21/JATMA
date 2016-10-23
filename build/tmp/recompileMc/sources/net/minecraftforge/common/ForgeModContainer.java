@@ -50,10 +50,13 @@ import net.minecraft.stats.StatList;
 import net.minecraft.world.storage.SaveHandler;
 import net.minecraft.world.storage.WorldInfo;
 import net.minecraftforge.classloading.FMLForgePlugin;
+import net.minecraftforge.common.config.Config;
+import net.minecraftforge.common.config.ConfigManager;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.common.config.Property;
 import net.minecraftforge.common.model.animation.CapabilityAnimation;
 import net.minecraftforge.common.network.ForgeNetworkHandler;
+import net.minecraftforge.energy.CapabilityEnergy;
 import net.minecraftforge.fluids.FluidRegistry;
 import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
 import net.minecraftforge.items.CapabilityItemHandler;
@@ -393,6 +396,7 @@ public class ForgeModContainer extends DummyModContainer implements WorldAccessC
 
         NetworkRegistry.INSTANCE.register(this, this.getClass(), "*", evt.getASMHarvestedData());
         ForgeNetworkHandler.registerChannel(this, evt.getSide());
+        ConfigManager.load(this.getModId(), Config.Type.INSTANCE);
     }
 
     @Subscribe
@@ -401,6 +405,7 @@ public class ForgeModContainer extends DummyModContainer implements WorldAccessC
         CapabilityItemHandler.register();
         CapabilityFluidHandler.register();
         CapabilityAnimation.register();
+        CapabilityEnergy.register();
         MinecraftForge.EVENT_BUS.register(MinecraftForge.INTERNAL_HANDLER);
         ForgeChunkManager.captureConfig(evt.getModConfigurationDirectory());
         MinecraftForge.EVENT_BUS.register(this);
