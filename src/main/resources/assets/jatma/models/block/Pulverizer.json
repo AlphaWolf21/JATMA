@@ -1,6 +1,7 @@
 {
     "parent": "block/block",
     "textures": {
+        "particle": "jatma:blocks/galaxypillar",
         "0": "jatma:blocks/Front",
         "1": "jatma:blocks/top"
     },

@@ -1,5 +1,7 @@
 {
     "variants": {
-        "normal": { "model": "jatma:Crystal" }
+        "normal": { "model": "jatma:Crystal" },
+        "inventory": { "model": "jatma:Crystal" }
+        
     }
 }

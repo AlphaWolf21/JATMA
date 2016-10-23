@@ -2,13 +2,16 @@ package abused_master.JATMA.TE;
 
 import javax.annotation.Nullable;
 
-import abused_master.JATMA.Registry.PulverizerRecipes;
 import cofh.api.energy.EnergyStorage;
 import cofh.api.energy.TileEnergyHandler;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.inventory.ItemStackHelper;
+import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
@@ -19,7 +22,8 @@ import net.minecraftforge.items.ItemStackHandler;
 public class TilePulverizer extends TileEnergyHandler implements IInventory {
 	
 	protected EnergyStorage storage = new EnergyStorage(50000);
-    public static final int SIZE = 9;
+    public static final int SIZE = 2;
+    private ItemStack[] pulverizerItemStacks = new ItemStack[3];
 
 
 	@Override
@@ -80,8 +84,6 @@ public class TilePulverizer extends TileEnergyHandler implements IInventory {
     private ItemStackHandler itemStackHandler = new ItemStackHandler(SIZE) {
         @Override
         protected void onContentsChanged(int slot) {
-            // We need to tell the tile entity that something has changed so
-            // that the chest contents is persisted
             TilePulverizer.this.markDirty();
         }
     };
@@ -209,4 +211,52 @@ public class TilePulverizer extends TileEnergyHandler implements IInventory {
 		return null;
 	}
 	
+	/**
+	 * just testing
+    private boolean canPulverize()
+    {
+        if (this.pulverizerItemStacks[0] == null)
+        {
+            return false;
+        }
+        else
+        {
+            ItemStack itemstack = FurnaceRecipes.instance().getSmeltingResult(this.pulverizerItemStacks[0]);
+            if (itemstack == null) return false;
+            if (this.pulverizerItemStacks[2] == null) return true;
+            if (!this.pulverizerItemStacks[2].isItemEqual(itemstack)) return false;
+            int result = pulverizerItemStacks[2].stackSize + itemstack.stackSize;
+            return result <= getInventoryStackLimit() && result <= this.pulverizerItemStacks[2].getMaxStackSize();
+        }
+    }
+	
+	 public void PulverizeItem()
+	    {
+	        if (this.canPulverize())
+	        {
+	            ItemStack itemstack = FurnaceRecipes.instance().getSmeltingResult(this.pulverizerItemStacks[0]);
+
+	            if (this.pulverizerItemStacks[2] == null)
+	            {
+	                this.pulverizerItemStacks[2] = itemstack.copy();
+	            }
+	            else if (this.pulverizerItemStacks[2].getItem() == itemstack.getItem())
+	            {
+	                this.pulverizerItemStacks[2].stackSize += itemstack.stackSize; // Forge BugFix: Results may have multiple items
+	            }
+
+	            if (this.pulverizerItemStacks[0].getItem() == Item.getItemFromBlock(Blocks.SPONGE) && this.pulverizerItemStacks[0].getMetadata() == 1 && this.pulverizerItemStacks[1] != null && this.pulverizerItemStacks[1].getItem() == Items.BUCKET)
+	            {
+	                this.pulverizerItemStacks[1] = new ItemStack(Items.WATER_BUCKET);
+	            }
+
+	            --this.pulverizerItemStacks[0].stackSize;
+
+	            if (this.pulverizerItemStacks[0].stackSize <= 0)
+	            {
+	                this.pulverizerItemStacks[0] = null;
+	            }
+	        }
+	    }
+	    */
 }

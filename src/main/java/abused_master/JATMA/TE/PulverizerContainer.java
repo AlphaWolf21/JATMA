@@ -5,6 +5,7 @@ import javax.annotation.Nullable;
 import abused_master.JATMA.GUI.RemoveOnlySlot;
 import abused_master.JATMA.GUI.SlotValidated;
 import abused_master.JATMA.GUI.SlotValidator;
+import abused_master.JATMA.TE.CraftingHandlers.PulverizerRecipes;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.inventory.Container;
@@ -19,7 +20,7 @@ import net.minecraftforge.items.SlotItemHandler;
 public class PulverizerContainer extends Container implements SlotValidator {
 	
 	TilePulverizer TP;
-
+	
 	public PulverizerContainer(InventoryPlayer inventory, TileEntity tile) {
 		super();
 		TP = (TilePulverizer) tile;
@@ -35,15 +36,13 @@ public class PulverizerContainer extends Container implements SlotValidator {
 	        }
 	    }
 
-	    // Player Inventory, Slot 0-8, Slot IDs 36-44
+	    // Player Inventory, Slot 0-8, Slot IDs 36-44e
 	    for (int x = 0; x < 9; ++x) {
 	        this.addSlotToContainer(new Slot(inventory, x, 8 + x * 18, 142));
 	    }
 	}
 		@Override
 		public boolean isItemValid(ItemStack stack) {
-			//Create a Manager
-			//return PulverizerManager.recipeExists(stack);
 			return false;
 		}
 

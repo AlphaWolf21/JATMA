@@ -1,52 +1,48 @@
-[17:48:02] [main/INFO]: Logging in with username & password
-[17:48:09] [Client thread/INFO]: Setting user: abused_master
-[17:48:15] [Client thread/WARN]: Skipping bad option: lastServer:
-[17:48:15] [Client thread/INFO]: LWJGL Version: 2.9.4
-[17:48:22] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JATMA, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO
-[17:48:33] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:48:33] [Thread-8/INFO]: Initializing LWJGL OpenAL
-[17:48:33] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:48:34] [Thread-8/INFO]: OpenAL initialized.
-[17:48:34] [Sound Library Loader/INFO]: Sound engine started
-[17:48:38] [Client thread/INFO]: Created: 16x16 textures-atlas
-[17:48:44] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JATMA, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO
-[17:48:46] [Client thread/INFO]: SoundSystem shutting down...
-[17:48:46] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[17:48:46] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[17:48:46] [Thread-10/INFO]: Initializing LWJGL OpenAL
-[17:48:46] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[17:48:46] [Thread-10/INFO]: OpenAL initialized.
-[17:48:47] [Sound Library Loader/INFO]: Sound engine started
-[17:48:50] [Client thread/INFO]: Created: 2048x2048 textures-atlas
-[17:48:55] [Client thread/WARN]: Skipping bad option: lastServer:
-[17:49:07] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
-[17:49:07] [Server thread/INFO]: Generating keypair
-[17:49:08] [Server thread/INFO]: Preparing start region for level 0
-[17:49:09] [Server thread/INFO]: Preparing spawn area: 4%
-[17:49:11] [Server thread/INFO]: Preparing spawn area: 11%
-[17:49:12] [Server thread/INFO]: Preparing spawn area: 18%
-[17:49:13] [Server thread/INFO]: Preparing spawn area: 23%
-[17:49:14] [Server thread/INFO]: Preparing spawn area: 31%
-[17:49:15] [Server thread/INFO]: Preparing spawn area: 43%
-[17:49:16] [Server thread/INFO]: Preparing spawn area: 55%
-[17:49:17] [Server thread/INFO]: Preparing spawn area: 63%
-[17:49:18] [Server thread/INFO]: Preparing spawn area: 75%
-[17:49:19] [Server thread/INFO]: Preparing spawn area: 86%
-[17:49:20] [Server thread/INFO]: Preparing spawn area: 97%
-[17:49:20] [Server thread/INFO]: Changing view distance to 8, from 10
-[17:49:23] [Server thread/INFO]: abused_master[local:E:f3c514b7] logged in with entity id 1656 at (159.5, 64.0, 243.5)
-[17:49:23] [Server thread/INFO]: abused_master joined the game
-[17:49:26] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 3324ms behind, skipping 66 tick(s)
-[17:49:30] [Server thread/INFO]: abused_master has just earned the achievement [Taking Inventory]
-[17:49:30] [Client thread/INFO]: [CHAT] abused_master has just earned the achievement [Taking Inventory]
-[17:50:02] [Client thread/INFO]: Stopping!
-[17:50:02] [Client thread/INFO]: SoundSystem shutting down...
-[17:50:02] [Server thread/INFO]: Stopping server
-[17:50:02] [Server thread/INFO]: Saving players
-[17:50:02] [Server thread/INFO]: Saving worlds
-[17:50:02] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[17:50:03] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
-[17:50:03] [Client Shutdown Thread/INFO]: Stopping server
-[17:50:03] [Client Shutdown Thread/INFO]: Saving players
-[17:50:03] [Client Shutdown Thread/INFO]: Saving worlds
-[17:50:03] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld
+[07:07:45] [main/INFO]: Logging in with username & password
+[07:07:49] [Client thread/INFO]: Setting user: abused_master
+[07:07:53] [Client thread/WARN]: Skipping bad option: lastServer:
+[07:07:53] [Client thread/INFO]: LWJGL Version: 2.9.4
+[07:07:58] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JATMA, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO
+[07:08:10] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[07:08:10] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[07:08:10] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[07:08:10] [Thread-8/INFO]: OpenAL initialized.
+[07:08:10] [Sound Library Loader/INFO]: Sound engine started
+[07:08:15] [Client thread/INFO]: Created: 16x16 textures-atlas
+[07:08:20] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:JATMA, FMLFileResourcePack:EnderCore, FMLFileResourcePack:Ender IO
+[07:08:23] [Client thread/INFO]: SoundSystem shutting down...
+[07:08:23] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[07:08:23] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[07:08:24] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[07:08:24] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[07:08:24] [Thread-10/INFO]: OpenAL initialized.
+[07:08:24] [Sound Library Loader/INFO]: Sound engine started
+[07:08:27] [Client thread/INFO]: Created: 2048x2048 textures-atlas
+[07:08:31] [Client thread/WARN]: Skipping bad option: lastServer:
+[07:10:59] [Server thread/INFO]: Starting integrated minecraft server version 1.10.2
+[07:10:59] [Server thread/INFO]: Generating keypair
+[07:11:00] [Server thread/INFO]: Preparing start region for level 0
+[07:11:01] [Server thread/INFO]: Preparing spawn area: 0%
+[07:11:02] [Server thread/INFO]: Preparing spawn area: 81%
+[07:11:03] [Server thread/INFO]: Changing view distance to 8, from 10
+[07:11:06] [Server thread/INFO]: abused_master[local:E:68096732] logged in with entity id 375 at (145.3265350175676, 77.75646537656048, 248.04120599339356)
+[07:11:06] [Server thread/INFO]: abused_master joined the game
+[07:11:07] [Server thread/INFO]: Saving and pausing game...
+[07:11:07] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[07:11:08] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[07:11:08] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[07:20:42] [Server thread/INFO]: [abused_master: Set the time to 0]
+[07:20:42] [Client thread/INFO]: [CHAT] Set the time to 0
+[07:23:58] [Client thread/INFO]: Stopping!
+[07:23:58] [Client thread/INFO]: SoundSystem shutting down...
+[07:23:59] [Server thread/INFO]: Stopping server
+[07:23:59] [Server thread/INFO]: Saving players
+[07:23:59] [Server thread/INFO]: Saving worlds
+[07:23:59] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[07:23:59] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[07:23:59] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[07:23:59] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[07:23:59] [Client Shutdown Thread/INFO]: Stopping server
+[07:23:59] [Client Shutdown Thread/INFO]: Saving players
+[07:23:59] [Client Shutdown Thread/INFO]: Saving worlds
+[07:23:59] [Client Shutdown Thread/INFO]: Saving chunks for level 'New World'/Overworld
