@@ -4,6 +4,7 @@ import java.io.File;
 
 import abused_master.JATMA.Config.Config;
 import abused_master.JATMA.Registry.ModItems;
+import abused_master.JATMA.TE.CraftingHandlers.PulverizerRecipes;
 import abused_master.JATMA.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
@@ -41,6 +42,13 @@ public class JATMA {
 	public void postInit(FMLPostInitializationEvent e) {
 		this.proxy.postInit(e);
 	}
+	
+
+	@EventHandler
+	public void loadComplete(FMLLoadCompleteEvent event) {
+		
+		PulverizerRecipes.addDefaultRecipes();
+		}
 	
     public static CreativeTabs JATMA = new CreativeTabs("JATMA")
     {

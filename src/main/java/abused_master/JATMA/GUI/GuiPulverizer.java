@@ -26,7 +26,7 @@ public class GuiPulverizer extends GuiContainer {
         xSize = WIDTH;
         ySize = HEIGHT;
     }
-
+    
     @Override
     protected void drawGuiContainerBackgroundLayer(float partialTicks, int mouseX, int mouseY) {
         mc.getTextureManager().bindTexture(Pulverizer);

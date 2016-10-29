@@ -1,6 +1,10 @@
 {
     "variants": {
         "normal": { "model": "jatma:Pulverizer" },
-        "inventory": { "model": "jatma:Pulverizer" }
+        "inventory": { "model": "jatma:Pulverizer" },
+        "facing=north": { "model": "jatma:Pulverizer" },
+        "facing=south": { "model": "jatma:Pulverizer", "y": 180 },
+        "facing=west":  { "model": "jatma:Pulverizer", "y": 270 },
+        "facing=east":  { "model": "jatma:Pulverizer", "y": 90 }
     }
 }

@@ -1,20 +1,22 @@
 {
     "parent": "block/block",
     "textures": {
-        "particle": "jatma:blocks/galaxypillar",
-        "0": "jatma:blocks/Front",
-        "1": "jatma:blocks/top"
+        "particle": "jatma:blocks/PulverizerTop",
+        "0": "jatma:blocks/PulverizerFront",
+        "1": "jatma:blocks/PulverizerSide",
+        "2": "jatma:blocks/PulverizerBottom",
+        "3": "jatma:blocks/PulverizerTop"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],
             "to": [ 16, 16, 16 ],
             "faces": {
-                "down":  { "texture": "#1", "cullface": "down" },
-                "up":    { "texture": "#1", "cullface": "up"   },
-                "north": { "texture": "#0" },
-                "south": { "texture": "#0" },
-                "west":  { "texture": "#0" },
-                "east":  { "texture": "#0" }
+                "down":  { "texture": "#2", "cullface": "down" },
+                "up":    { "texture": "#3", "cullface": "up"   },
+                "north": { "texture": "#0", "cullface": "north"   },
+                "south": { "texture": "#1", "cullface": "south"   },
+                "west":  { "texture": "#1", "cullface": "west"   },
+                "east":  { "texture": "#1", "cullface": "east"   }
             }
         }
     ]

@@ -24,7 +24,6 @@ public class CommonProxy {
 	public void init(FMLInitializationEvent e) {
 		NetworkRegistry.INSTANCE.registerGuiHandler(JATMA.instance, new GuiHandler());
 		TERegistry.RegisterTE();
-		PulverizerRecipes.addDefaultRecipes();
 	}
 	
 	public void postInit(FMLPostInitializationEvent e) {

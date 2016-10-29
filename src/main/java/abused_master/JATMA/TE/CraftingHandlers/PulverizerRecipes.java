@@ -1,11 +1,19 @@
 package abused_master.JATMA.TE.CraftingHandlers;
 
 import java.util.ArrayList;
+import java.util.Map;
+import java.util.Map.Entry;
+
+import javax.annotation.Nullable;
+
+import com.google.common.collect.Maps;
 
 import abused_master.JATMA.Registry.ModItems;
+import gnu.trove.map.hash.THashMap;
 import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.oredict.OreDictionary;
 
@@ -13,12 +21,41 @@ public class PulverizerRecipes {
 	
 	private static boolean allowOverwrite = false;
 	public static final int DEFAULT_ENERGY = 3200;
-
 	private static int oreMultiplier = 2;	
+    private static final PulverizerRecipes PULVERIZING_BASE = new PulverizerRecipes();
+    private final Map<ItemStack, ItemStack> PulverizingList = Maps.<ItemStack, ItemStack>newHashMap();
+	private static ComparableItemStackPulverizer recipeMap = new ComparableItemStackPulverizer();
+
+	
+    public static PulverizerRecipes instance()
+    {
+        return PULVERIZING_BASE;
+    }
 	
 	public PulverizerRecipes(ItemStack input, ItemStack primaryOutput, int energy) {
-	}
+		
+	}	
 
+	public PulverizerRecipes() {
+		
+	}
+	
+
+	public static RecipePulverizer getRecipe(ItemStack input) {
+
+		if (input == null) {
+			return null;
+		}
+		ComparableItemStackPulverizer query = new ComparableItemStackPulverizer();
+
+		RecipePulverizer recipe = recipeMap.get(query);
+
+		if (recipe == null) {
+			query.metadata = OreDictionary.WILDCARD_VALUE;
+			recipe = recipeMap.get(query);
+		}
+		return recipe;
+	}
 
 	public static void addDefaultRecipes() {
 
@@ -220,5 +257,42 @@ public class PulverizerRecipes {
 
 			return energy;
 		}
+	}
+	
+	/*
+	public static RecipePulverizer getRecipe(ItemStack input) {
+
+		if (input == null) {
+			return null;
+		}
+		return null;
+
+	}
+	*/
+	public static boolean recipeExists(ItemStack input) {
+
+		return getRecipe(input) != null;
+	}
+
+	public static RecipePulverizer[] getRecipeList() {
+		
+		return recipeMap.values().toArray(new RecipePulverizer[0]);
+
+	}
+	
+	public static class ComparableItemStackPulverizer {
+
+		public int metadata;
+
+		public RecipePulverizer get(ComparableItemStackPulverizer query) {
+			// TODO Auto-generated method stub
+			return null;
+		}
+
+		public ArrayList<ItemStack> values() {
+			// TODO Auto-generated method stub
+			return null;
+		}
+		
 	}
 }
