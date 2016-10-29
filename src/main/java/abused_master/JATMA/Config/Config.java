@@ -17,12 +17,12 @@ public class Config {
 	public static void init(FMLPreInitializationEvent event) {
 
 		configpath = event.getModConfigurationDirectory().getAbsolutePath() + File.separator;
-		config = new Configuration(new File(configpath + "SuperOres.cfg"));
+		config = new Configuration(new File(configpath + "JATMA.cfg"));
 		try {
 			config.load();
 			Config.configure(config);
 		} catch (Exception e1) {
-			System.out.println("Error Loading Config File: SuperOres.cfg");
+			System.out.println("Error Loading Config File: JATMA.cfg");
 		} finally {
 			if (config.hasChanged()) {
 				config.save();
