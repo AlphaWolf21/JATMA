@@ -3,11 +3,10 @@ package abused_master.JATMA.TE;
 import javax.annotation.Nullable;
 
 import abused_master.JATMA.GUI.GuiPulverizer;
-import abused_master.JATMA.TE.CraftingHandlers.MachineRecipeInput;
-import abused_master.JATMA.TE.CraftingHandlers.PulverizerRecipes;
-import abused_master.JATMA.TE.CraftingHandlers.PulverizerRecipes.RecipePulverizer;
+import abused_master.JATMA.TE.CraftingHandlers.RecipePulverizer;
 import cofh.api.energy.EnergyStorage;
 import cofh.api.energy.TileEnergyHandler;
+import net.minecraft.block.BlockFurnace;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import net.minecraft.init.Blocks;
@@ -21,6 +20,7 @@ import net.minecraft.item.crafting.FurnaceRecipes;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
+import net.minecraft.util.math.MathHelper;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
@@ -31,7 +31,9 @@ public class TilePulverizer extends TileEnergyHandler implements IInventory {
 	protected EnergyStorage storage = new EnergyStorage(50000);
     public static final int SIZE = 2;
     private ItemStack[] pulverizerItemStacks = new ItemStack[3];
-
+    private int pulverizingTime;
+    private int totalPulverizingTime;
+    private int pulverizingBurnTime;
 
     public TilePulverizer() {
     	super();
@@ -195,10 +197,77 @@ public class TilePulverizer extends TileEnergyHandler implements IInventory {
 		return false;
 	}	
 	
-	public void update() {
-		
-	}
-	
-	
-	
+    public boolean canInsertItem(int index, ItemStack itemStackIn, EnumFacing direction)
+    {
+        return this.isItemValidForSlot(index, itemStackIn);
+    }
+    
+    public void update()
+    {
+    	boolean flag1 = false;
+
+        if (!this.worldObj.isRemote)
+        {
+            if (this.pulverizerItemStacks[1] != null && this.pulverizerItemStacks[0] != null)
+            {
+                if (!this.canPulverize())
+                {
+                }
+
+                if (this.canPulverize())
+                {
+                        flag1 = true;
+                    }
+                }
+                else
+                {
+                }
+            }
+
+        if (flag1)
+        {
+            this.markDirty();
+        }
+    }
+    
+    private boolean canPulverize()
+    {
+        if (this.pulverizerItemStacks[0] == null)
+        {
+            return false;
+        }
+        else
+        {
+            ItemStack itemstack = RecipePulverizer.instance().getPulverizingResult(this.pulverizerItemStacks[0]);
+            if (itemstack == null) return false;
+            if (this.pulverizerItemStacks[2] == null) return true;
+            if (!this.pulverizerItemStacks[2].isItemEqual(itemstack)) return false;
+            int result = pulverizerItemStacks[2].stackSize + itemstack.stackSize;
+            return result <= getInventoryStackLimit() && result <= this.pulverizerItemStacks[2].getMaxStackSize();
+        }
+    }
+
+    
+	public void pulverizeItem()
+    {  
+		if (this.canPulverize()) {
+			
+		ItemStack itemstack = RecipePulverizer.instance().getPulverizingResult(this.pulverizerItemStacks[0]);
+
+        if (this.pulverizerItemStacks[2] == null)
+        {
+            this.pulverizerItemStacks[2] = itemstack.copy();
+        }
+        else if (this.pulverizerItemStacks[2].getItem() == itemstack.getItem())
+        {
+            this.pulverizerItemStacks[2].stackSize += itemstack.stackSize;
+        }
+        --this.pulverizerItemStacks[0].stackSize;
+
+        if (this.pulverizerItemStacks[0].stackSize <= 0)
+        {
+            this.pulverizerItemStacks[0] = null;
+           }
+		}
+    }
 }

@@ -3,9 +3,9 @@ package abused_master.JATMA.TE;
 import javax.annotation.Nullable;
 
 import abused_master.JATMA.GUI.RemoveOnlySlot;
+import abused_master.JATMA.GUI.SlotInput;
 import abused_master.JATMA.GUI.SlotValidated;
 import abused_master.JATMA.GUI.SlotValidator;
-import abused_master.JATMA.TE.CraftingHandlers.MachineRecipeInput;
 import abused_master.JATMA.TE.CraftingHandlers.PulverizerRecipes;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
@@ -32,7 +32,8 @@ public class PulverizerContainer extends Container implements SlotValidator {
 	public PulverizerContainer( InventoryPlayer inventory, TileEntity tile) {
 		super();
 		TP = (TilePulverizer) tile;
-		addSlotToContainer(new SlotValidated(this, TP, 0, 56, 26));
+		addSlotToContainer(new SlotInput(TP, 0, 56, 26));
+		//addSlotToContainer(new Slot(TP, 0, 56, 26));
 		addSlotToContainer(new RemoveOnlySlot(TP, 1, 116, 26));
 		
 		//Slot for under output
