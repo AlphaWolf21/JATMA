@@ -32,7 +32,7 @@ public class RecipePulverizer {
     {
     	this.addPulverizingRecipeForBlock(Blocks.COBBLESTONE, new ItemStack(Blocks.GRAVEL), 1.0F);
     	this.addPulverizingRecipeForBlock(Blocks.GRAVEL, new ItemStack(Blocks.SAND), 1.0F);
-    	this.addPulverizingRecipeForBlock(Blocks.COBBLESTONE, new ItemStack(Blocks.GRAVEL), 1.0F);
+    	this.addPulverizingRecipeForBlock(Blocks.STONE, new ItemStack(Blocks.GRAVEL), 1.0F);
 
     }
 

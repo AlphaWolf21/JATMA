@@ -1,8 +1,8 @@
 package abused_master.JATMA.GUI;
 
 import abused_master.JATMA.Info;
-import abused_master.JATMA.TE.PulverizerContainer;
 import abused_master.JATMA.TE.TilePulverizer;
+import abused_master.JATMA.TE.Container.PulverizerContainer;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.client.renderer.GlStateManager;

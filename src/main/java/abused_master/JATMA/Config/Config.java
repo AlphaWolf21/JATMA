@@ -14,6 +14,10 @@ public class Config {
 	
 	public static boolean Pulverizer;
 	
+	
+	public static int CrystalRate;
+	
+	
 	public static void init(FMLPreInitializationEvent event) {
 
 		configpath = event.getModConfigurationDirectory().getAbsolutePath() + File.separator;
@@ -34,5 +38,9 @@ public class Config {
 		
 		config.addCustomCategoryComment(MOD_JATMA, "JATMA Config");
 		Pulverizer = config.getBoolean("Pulverizer", MOD_JATMA, true, "Set to false if you want the Pulverizer to be Disabled");
+		
+		
+		CrystalRate = config.getInt("CrystalRate", MOD_JATMA, 100, 0, 100, "Set to false if you want the Pulverizer to be Disabled");
+
 	}	
 }

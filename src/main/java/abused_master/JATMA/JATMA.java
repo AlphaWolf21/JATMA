@@ -3,12 +3,14 @@ package abused_master.JATMA;
 import java.io.File;
 
 import abused_master.JATMA.Config.Config;
+import abused_master.JATMA.Registry.MobDrops;
 import abused_master.JATMA.Registry.ModItems;
 import abused_master.JATMA.TE.CraftingHandlers.PulverizerRecipes;
 import abused_master.JATMA.proxy.CommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -36,6 +38,7 @@ public class JATMA {
 	@EventHandler
 	public void init(FMLInitializationEvent e) {
 		this.proxy.init(e);
+		MinecraftForge.EVENT_BUS.register(new MobDrops());
 	}
 	
 	@EventHandler

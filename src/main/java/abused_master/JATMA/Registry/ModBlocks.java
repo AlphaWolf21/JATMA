@@ -13,13 +13,14 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModBlocks {
 		
-	public static Block Crystal;
+	public static Block Crystal = new Crystal(Material.ROCK);
 	public static Block Pulverizer = new Pulverizer(Material.ROCK);
 	
 	public static void init() {
 		
-	GameRegistry.registerBlock(Crystal = new Crystal(Material.ROCK), "Crystal");
-	
+	GameRegistry.register(Crystal.setRegistryName("Crystal"));
+	GameRegistry.register(new MainItemBlock(Crystal).setRegistryName(Crystal.getRegistryName()));
+
 	if(Config.Pulverizer) {
 	GameRegistry.register(Pulverizer.setRegistryName("Pulverizer"));
 	GameRegistry.register(new MainItemBlock(Pulverizer).setRegistryName(Pulverizer.getRegistryName()));

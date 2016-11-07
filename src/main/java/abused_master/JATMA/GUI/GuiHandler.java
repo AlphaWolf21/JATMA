@@ -1,7 +1,7 @@
 package abused_master.JATMA.GUI;
 
-import abused_master.JATMA.TE.PulverizerContainer;
 import abused_master.JATMA.TE.TilePulverizer;
+import abused_master.JATMA.TE.Container.PulverizerContainer;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.math.BlockPos;
@@ -17,7 +17,7 @@ public class GuiHandler implements IGuiHandler {
 		 BlockPos pos = new BlockPos(x, y, z);
 	        TileEntity te = world.getTileEntity(pos);
 	        if (te instanceof TilePulverizer) {
-	            return new PulverizerContainer(player.inventory, (TilePulverizer) te);
+	            return new PulverizerContainer(player.inventory, (TilePulverizer) te, te);
 	        }
 	       
 		return null;
@@ -29,7 +29,7 @@ public class GuiHandler implements IGuiHandler {
         TileEntity te = world.getTileEntity(pos);
         if (te instanceof TilePulverizer) {
         	TilePulverizer containerTileEntity = (TilePulverizer) te;
-            return new GuiPulverizer(containerTileEntity, new PulverizerContainer(player.inventory, containerTileEntity));
+            return new GuiPulverizer(containerTileEntity, new PulverizerContainer(player.inventory, containerTileEntity, te));
         }
 		return null;
 	}

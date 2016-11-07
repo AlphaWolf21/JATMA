@@ -1,5 +1,7 @@
 package abused_master.JATMA.Registry;
 
+import java.util.HashMap;
+
 import abused_master.JATMA.Items.ChargedCrystal;
 import abused_master.JATMA.Items.Wrench;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -8,7 +10,7 @@ import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class ModItems {
-	
+		
 	//public static Item Wrench = new Wrench();
 	public static Item Wrench;
 	public static Item ChargedCrystal;
@@ -18,7 +20,6 @@ public class ModItems {
 		//GameRegistry.register(Wrench.setRegistryName("Wrench"));
 	    GameRegistry.registerItem(Wrench = new Wrench(), "Wrench");
 	    GameRegistry.registerItem(ChargedCrystal = new ChargedCrystal(), "ChargedCrystal");
-
 	}
 	
 	public static void RegisterRender() {

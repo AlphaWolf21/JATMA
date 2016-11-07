@@ -21,10 +21,6 @@ import net.minecraft.world.World;
 
 public class Crystal extends Block {
 	
-	
-	//private static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0.625D * 1.0D, 0.0D, 0.625D * 1.0D, 0.625D * 1.0D, 0.625D * 1.0D, 0.625D * 1.0D);
-	//private static final AxisAlignedBB COLLISION_BOX = new AxisAlignedBB(0.625D * 6, 0, 0.625D * 6, 0.625D * 14, 0.625D * 13, 0.625D * 14);
-	
 	private static final AxisAlignedBB BOUNDING_BOX = new AxisAlignedBB(0.24D, 0.03D, 0.24D, 0.76D, 0.51D, 0.76D);
 	
 	public Crystal(Material material) {

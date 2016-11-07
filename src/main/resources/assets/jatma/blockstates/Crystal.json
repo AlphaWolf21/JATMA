@@ -1,7 +1,14 @@
 {
-    "variants": {
-        "normal": { "model": "jatma:Crystal" },
-        "inventory": { "model": "jatma:Crystal" }
-        
+  "forge_marker": 1,
+  "defaults": {
+    "custom": { "flip-v": true },
+    "model": "jatma:Crystal.obj",
+    "textures": {
+      "#Material.001": "jatma:blocks/crystaltexture"
     }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
 }

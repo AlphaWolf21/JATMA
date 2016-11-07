@@ -5,6 +5,7 @@ import java.io.File;
 import abused_master.JATMA.Info;
 import abused_master.JATMA.JATMA;
 import abused_master.JATMA.GUI.GuiHandler;
+import abused_master.JATMA.Registry.JATMAGeneration;
 import abused_master.JATMA.Registry.ModBlocks;
 import abused_master.JATMA.Registry.ModItems;
 import abused_master.JATMA.TE.TERegistry;
@@ -14,6 +15,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.network.NetworkRegistry;
+import net.minecraftforge.fml.common.registry.GameRegistry;
 
 public class CommonProxy {	
 	public void preInit(FMLPreInitializationEvent e) {
@@ -22,6 +24,7 @@ public class CommonProxy {
 	}
 	
 	public void init(FMLInitializationEvent e) {
+        GameRegistry.registerWorldGenerator(new JATMAGeneration(), 0);
 		NetworkRegistry.INSTANCE.registerGuiHandler(JATMA.instance, new GuiHandler());
 		TERegistry.RegisterTE();
 	}
